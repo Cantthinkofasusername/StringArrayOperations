@@ -9,9 +9,9 @@ function palindrome(){
         return str.split("").reverse().join("");
     }
 
-    alert("First word is " + string1 + "." + " Reversed first word is " + reversedstring1 + ".")
-    alert("Second word is " + string2 + "." + "REversed second word is " + reversedstring2 + ".")
+    alert("First word is " + string1 + "." + " Reversed first word is " + reversedstring1 + ".");
+    alert("Second word is " + string2 + "." + "REversed second word is " + reversedstring2 + ".");
 
-    alert("First word is " + Boolean(string1==reversedstring1))
-    alert("Second word is " + Boolean(string2==reversedstring2))
+    alert("First word is " + Boolean(string1==reversedstring1));
+    alert("Second word is " + Boolean(string2==reversedstring2));
 }
